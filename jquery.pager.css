@@ -1,0 +1,75 @@
+table.jqpager{
+    border: 1px solid #ccc;
+    border-spacing: 0px; 
+    -webkit-box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.3);
+    box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.3);
+    width:100%;
+}
+table.jqpager thead th{
+    background: rgb(224,224,224); /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2UwZTBlMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkM2QzZDMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  rgba(224,224,224,1) 0%, rgba(211,211,211,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(224,224,224,1)), color-stop(100%,rgba(211,211,211,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(224,224,224,1) 0%,rgba(211,211,211,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(224,224,224,1) 0%,rgba(211,211,211,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(224,224,224,1) 0%,rgba(211,211,211,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(224,224,224,1) 0%,rgba(211,211,211,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e0e0', endColorstr='#d3d3d3',GradientType=0 ); /* IE6-8 */
+
+    color: #666;
+    font-weight: 100 !important;
+    text-align: left;
+    border-left: 1px solid #ccc;
+    padding: 5px 5px;
+    cursor: pointer;
+}
+table.jqpager thead th i{
+    font-size: 10px;
+    padding-right: 3px;
+}
+table.jqpager tbody td{
+    padding: 3px 5px;
+}
+table.jqpager tbody tr.odd td{
+    background: #e5e5e5;
+}
+table.jqpager tbody tr:hover td{
+    background: #d5d5d5;
+}
+table.jqpager tbody tr.active td{
+    background: #ccc;
+}
+.jqpager-commanders{
+    border: 1px solid #bbb;
+    margin-top: 10px;
+    background: rgb(224,224,224); /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2UwZTBlMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkM2QzZDMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  rgba(224,224,224,1) 0%, rgba(211,211,211,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(224,224,224,1)), color-stop(100%,rgba(211,211,211,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(224,224,224,1) 0%,rgba(211,211,211,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(224,224,224,1) 0%,rgba(211,211,211,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(224,224,224,1) 0%,rgba(211,211,211,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(224,224,224,1) 0%,rgba(211,211,211,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e0e0', endColorstr='#d3d3d3',GradientType=0 ); /* IE6-8 */
+}
+.jqpager-commanders ul{
+    margin: 0px;
+    padding: 5px;
+}
+.jqpager-commanders li{
+    display: inline-block;
+    padding: 0 5px;
+}
+.jqpager-commanders i{
+    color: #999;
+    cursor: pointer;
+}
+.jqpager-commanders i:hover{
+    color: #333;
+}
+.jqpager-commanders .jqpager-curpage{
+    width: 50px;
+    text-align: center;
+}
